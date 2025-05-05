@@ -1,6 +1,6 @@
 // Spotify API credentials
-const CLIENT_ID = 'YOUR_SPOTIFY_CLIENT_ID'; // Replace with your actual Spotify Client ID
-const REDIRECT_URI = 'http://localhost:8000/';
+const CLIENT_ID = '5f4b69b425214068a7d0eec721df7fbd'; // Replace with your actual Spotify Client ID
+const REDIRECT_URI = 'https://misterrgb.github.io/spottystats/';
 const SCOPE = 'user-top-read user-read-recently-played';
 
 // DOM elements
