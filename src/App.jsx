@@ -6,7 +6,7 @@ function App() {
 
   const handleSpotifyLogin = () => {
     const clientId = 'bd96946fb9404e2f832ad9e12cc0096c';
-    const redirectUri = 'https://localhost:5173/callback';
+    const redirectUri = window.location.hostname === 'localhost' ? 'https://localhost:5173/callback' : 'https://misterrgb.github.io/spottystats/';
     const scopes = [
       'user-read-private',
       'user-read-email',
