@@ -1,0 +1,2 @@
+.aurora-container{animation:moveGradient 30s infinite alternate;background-color:var(--background-default);background-image:radial-gradient(circle at bottom,var(--primary-main) 0,var(--secondary-main) 25%,#0000 50%);background-size:200% 200%;height:100vh;left:0;overflow:hidden;position:fixed;top:0;width:100vw;z-index:-1}@keyframes moveGradient{0%{background-position:50% 100%}25%{background-position:75% 125%}50%{background-position:25% 150%}75%{background-position:0 125%}to{background-position:50% 100%}}
+/*# sourceMappingURL=main.a70098df.css.map*/
